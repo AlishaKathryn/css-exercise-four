@@ -124,3 +124,59 @@ nav {
     margin: 4px;
   }
 }
+
+@media screen and (min-width: 991px) {
+
+  h1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .preview h1{
+    font-family:serif;
+    font-size: 2em;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 30px;
+    margin-bottom: -10px;
+    padding-top: 15px
+  }
+
+  .preview {
+    width: 75%;
+    display: inline-block;
+    padding: 20px;
+  }
+
+  .baku {
+    background-image: url(../images/baku.jpg);
+    background-size: cover;
+    width: 20%;
+    height: 200px;
+    margin: 4px;
+  }
+
+  .london {
+    background-image: url(../images/london.png);
+    background-size: cover;
+    width: 20%;
+    height: 200px;
+    margin: 4px;
+  }
+
+  .madrid {
+    background-image: url(../images/madrid.jpg);
+    background-size: cover;
+    width: 20%;
+    height: 200px;
+    margin: 4px;
+  }
+
+  .rome {
+    background-image: url(../images/rome.jpg);
+    background-size: cover;
+    width: 20%;
+    height: 200px;
+    margin: 4px;
+  }
+}
